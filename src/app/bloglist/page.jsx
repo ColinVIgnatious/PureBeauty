@@ -7,7 +7,6 @@ import { DM_Serif_Display } from "next/font/google";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import { SessionContext } from "@/contexts/sessionprovider";
-
 import ImageTile from '@/components/imageTile';
 import Link from "next/link";
 

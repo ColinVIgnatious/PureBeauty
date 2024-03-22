@@ -6,9 +6,7 @@ const sourceCodePro = Source_Code_Pro({
   subsets: ["latin"],
 });
 
-type Props = {}
-
-const Footer = (props: Props) => {
+export default function Footer() {
   return (
     <>
     <div className='bg-[#842A3A] flex justify-between pr-[60px] pl-[40px]'>
@@ -38,4 +36,3 @@ const Footer = (props: Props) => {
   )
 }
 
-export default Footer
